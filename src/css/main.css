@@ -1,4 +1,4 @@
-/* Main.css */
+
 main {
     display: flex;
     justify-content: center;
@@ -19,13 +19,13 @@ main {
     color: #ddd;
     max-width: 600px;
     width: 100%;
-    border: 2px solid #8e2de2; /* Borde violeta */
-    box-shadow: 0 0 25px rgba(142, 45, 226, 0.5); /* Sombra violeta */
+    border: 2px solid #8e2de2; 
+    box-shadow: 0 0 25px rgba(142, 45, 226, 0.5); 
     
   }
   main section:hover {
     
-    box-shadow: 0 0 35px rgba(142, 45, 226, 0.7); /* Más glow en hover */
+    box-shadow: 0 0 35px rgba(142, 45, 226, 0.7);
   }
   
 
@@ -43,12 +43,12 @@ main {
     height: 150px;
     object-fit: cover;
     
-    border: 2px solid cyan; /* Borde violeta */
-    box-shadow: 0 0 15px cyan; /* Sombra violeta */
+    border: 2px solid cyan; 
+    box-shadow: 0 0 15px cyan; 
   }
 
   main img:hover {
-    box-shadow: 0 0 35px cyan; /* Más glow en hover */
+    box-shadow: 0 0 35px cyan; 
   }
   
   main p {
