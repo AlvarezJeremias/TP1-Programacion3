@@ -1,0 +1,38 @@
+/* Footer.css */
+.footer {
+    background: linear-gradient(135deg, #1a1a1a, #0d0d0d);
+    padding: 30px 20px;
+    text-align: center;
+    border-top: 3px solid grey;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .footer-links a {
+    background-color: #222;
+    color: #ccc;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .footer-links a:hover {
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 48%, rgba(153, 0, 255, 1) 100%);
+    transform: scale(1.1);
+    color: #fff;
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
